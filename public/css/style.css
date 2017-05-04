@@ -1,0 +1,154 @@
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;	
+}
+
+table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 90%;
+}
+
+thead th {
+  background: #fffae6;  
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px;
+  text-align: left;
+  width: 33.3333%;
+}
+
+img{
+	max-width:100%;
+}
+
+body {
+	background:url('../images/1.png') no-repeat 0px 0px;
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+	background-attachment: fixed;
+    background-position: center;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+	
+}
+.container{
+	width:80%;
+	margin:50px auto;
+}
+h1{
+	text-align:center;
+	font-size:50px;
+	margin-bottom:50px;
+	color:#fff;
+}
+h2{
+	font-size:24px;
+	color:#fff;
+	margin-bottom:15px;
+}
+h3.list{
+	font-size:24px;
+	color:#fff;
+	margin-bottom:15px;
+}
+h3{
+	font-size:15px;
+	color:#fff;
+	margin-bottom:10px;
+}
+.left{
+	float:left;
+	width:25%;
+	margin-right:4%;
+}
+.right{
+	float:left;
+	width:71%;
+}
+.agile1{
+	background: rgba(255, 255, 255, 0.15);
+	padding:15px;
+	margin-bottom:20px;
+}
+input[type="text"]{
+	width:86.5%;
+	padding:13px;
+	background:rgba(8, 8, 8, 0.14);
+	background: rgba(255, 255, 255, 0.15);
+	background:#fff;
+	border:none;
+	outline:none;
+	font-size:14px;
+}
+input[type="button"]{
+	background:transparent;
+	border:2px solid #000;
+	padding:8px 15px;
+	font-size:14px;
+	color:#fff;
+	cursor:pointer;
+	outline:none;
+		transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	font-family: 'Lato', sans-serif;
+}
+input[type="button"]:hover{
+	background: #000;
+	
+}
+
+input[type="button"].editButton, input[type="button"].deleteButton, input[type="button"].saveButton{
+	border: 0;
+	width:95%;
+	color: #000;
+}
+input[type="button"]:hover.editButton {
+	color:#fff;
+	background: #000;
+}
+
+input[type="button"]:hover.deleteButton {
+	color:#fff;
+	background: #000;
+}
+
+input[type="button"]:hover.saveButton {
+	color:#fff;
+	background: #000;
+}
+
+::-webkit-input-placeholder{
+color:#fff !important;
+}
+
+
+
+
